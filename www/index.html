@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+   <head>
+      <title>Electrum servers map</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="//ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+      <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+      <style>body { font-family: Arial }</style>
+      <script type="text/javascript" src="map.js"></script>
+   </head>
+
+   <body> 
+
+     <div style="position:absolute; right: 0; top:0; margin:0px; width:400px; background:#ffefef; padding:10px; z-index:10" id="aboutBox">
+       <div style="font-weight: bold">electrum.206industries.com</div>
+       <p>This map shows the geographic distribution of Electrum servers worldwide. The list is updated every few minutes.</p>
+       <table width="100%" id="serverList" style="display: none"></table>
+       <div style="font-size: 8pt">This product includes GeoLite2 data created by MaxMind, available from <a href="http://www.maxmind.com">http://www.maxmind.com</a>.</div>
+     </div>
+
+      <div id="mapDiv" style="width:1000px; height:1000px;"></div>
+   </body>
+</html>

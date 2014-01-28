@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /home/webmap
+python generate.py > www/data.json 
